@@ -203,7 +203,7 @@ span{
     box-shadow: 0 0  25px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease;
-    margin-right: ;
+    
     
     
 }
@@ -236,3 +236,62 @@ span{
     margin: 2rem 0 3rem;
     
 }
+
+.service h2{
+    margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    
+    
+    
+
+}
+.services-container .sericices-box{
+    flex: 1 1 30rem;
+    background-color: var(--sed-bg-color);
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+
+    
+
+
+}
+.services-container .sericices-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.sericices-box i{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+.sericices-box{
+    font-size: 2.6rem;
+}
+
+.sericices-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.services h2{
+    text-align: center;
+    line-height: 3;
+}
+
+
+
+
+
+
+
+
