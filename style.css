@@ -47,7 +47,7 @@ section{
    background: var(--main-color);
    backdrop-filter: blur(10px);
    transition: all 0.5s ease;
-
+  
 }
 
 .logo{
@@ -97,7 +97,7 @@ section{
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
     transition: 0.4s ease;
-    margin-left: 30% ;
+    margin-left: 20% ;
 }
 
 .home-img img:hover{
@@ -121,7 +121,7 @@ section{
      /* peragiraf ka code  */
   
 .home-content{  
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 .home-content h3{
@@ -235,18 +235,33 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
     
+
 }
 
-.service h2{
+.services{
+    padding: 8rem 6%;
+    text-align: center;
+    height: 300%;
+
+}
+
+.services h2{
+    font-size: 4rem;
+    text-align: center;
     margin-bottom: 5rem;
+    font-weight: 700;
+
+    
+    
+    
+
 }
 .services-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    
+    gap: 2rem;
     
     
     
@@ -283,10 +298,7 @@ span{
     margin: 1rem 0 3rem;
 }
 
-.services h2{
-    text-align: center;
-    line-height: 3;
-}
+
 
 
 
