@@ -300,40 +300,34 @@ span{
 
 
 /* testiomonal code */
-
-.testimonial{
-    background: var(--sed-bg-color);
-}
-.testimonial-box{
-    background-size:cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.works {
+  padding: 10rem 9%;
+  text-align: center;
 }
 
-.testimonial .heading{
-    margin-bottom: 5rem;
+.works h2 {
+  font-size: 4rem;
+  color: var(--main-color);
+  margin-bottom: 5rem;
+  font-weight: 700;
 }
 
-.testimonial-box img{
-    width: 15rem;
-    border-radius: 50%;
-    border: 3px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
-}
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
+.works-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
+.work-box {
+  flex: 1 1 30rem;
+  background-color: var(--sed-bg-color);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
+.work-box:hover {
+  transform: scale(1.02);
+}
