@@ -568,13 +568,13 @@ span{
     }
     @media (max-width: 617px){
         .home-img img{
-            width: 75vw;
+            width: 70vw;
             margin-top: 8rem;
-            margin-right: ;
+            
 
         }
         .about-img img{
-            width: 75vw;
+            width: 70vw;
             margin-top: 4rem;
         }
     }
